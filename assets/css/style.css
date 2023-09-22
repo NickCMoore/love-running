@@ -84,10 +84,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -115,7 +121,6 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
@@ -141,7 +146,6 @@ main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -149,5 +153,4 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
 }
